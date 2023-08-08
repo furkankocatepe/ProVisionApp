@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(to right, #1a3b5d, #0e1f2e);
+    font-family: Arial, sans-serif;
+    color: #ccc;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #2a4a6a;
+    border: 1px solid #8c3c81;
+}
+
+h1, h2 {
+    color: #ffffff; 
+    border-bottom: 2px solid #3c6a8c;
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #3c6a8c;
+    background: #334b66;
+    color: #ffffff;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select:focus, input:focus {
+    border-color: #d14a76; /* Dark pink for focused inputs */
+    background: #2a3f55;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background: #3c6a8c;
+    border: 1px solid #4a8cb6;
+    font-weight: bold;
+    font-size: 18px;
+    color: #eee;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #5aa4d0; 
+}
+
+#prediction {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+.box {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background: #3c6a8c;
+    border: 1px solid #2a4a6a;
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    background: #2a4a6a; 
+}
+
+.action-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #5aa4d0;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.action-button:hover {
+    background: #767676; 
+}
+
+.date-hint {
+    font-size: 14px;
+    color: #f6f7ff; 
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
