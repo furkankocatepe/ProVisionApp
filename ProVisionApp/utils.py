@@ -8,10 +8,10 @@ def pull_data(date, city, forecast_type, store, prediction_type):
     
     conn_str = (
         r'DRIVER={ODBC Driver 17 for SQL Server};'
-        r'SERVER=FURKANPC\FURKAN_SQL;'  
+        r'SERVER=66.183.34.60,62448\\TAC;'  
         r'DATABASE=Retail;'  
-        r'UID=PythonConnection;'  
-        r'PWD=PythonConnector3290.'  
+        r'UID=furkan;'  
+        r'PWD=192837'  
     )
         
     conn = pyodbc.connect(conn_str)
