@@ -19,18 +19,17 @@ Follow these step-by-step instructions to install and run the Pro-Vision App on 
 Navigate to the Pro-Vision App directory where the project is located.
 In the address bar, enter " cmd ", and the command prompt will open with the Pro-Vision App directory path.
 
- b. Activate Virtual Environment:
+ b. Create Virtual Environment: 
+Navigate to the Pro-Vision App directory, open the command prompt within this directory, and create a virtual environment by entering: " py -m venv .env "
+
+ c. Activate Virtual Environment:
 
 Type " .\.env\Scripts\activate " and press Enter to activate the virtual environment.
 
- c. Install Required Packages:
+ d. Install Required Packages:
 
 You will need to install the necessary packages for the app to function properly.
 Type " pip install -r requirements.txt " and press Enter to install the packages listed in the requirements.txt file. Please note that this process might take some time, depending on your system configuration.
-
- d. Navigate to App Folder:
-
-Type " cd app " and press Enter to navigate to the app folder's directory.
 
  e. Run the Application:
 
