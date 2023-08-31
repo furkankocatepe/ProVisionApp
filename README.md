@@ -1,6 +1,15 @@
 Pro-Vision App
 
-	1 - Description:
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Installation Instructions](#installation-instructions)
+3. [Usage Instructions](#usage-instructions)
+4. [File Structure](#file-structure)
+5. [Error Handling](#error-handling)
+6. [Dependencies](#dependencies)
+
+### <a name="introduction"></a>Introduction
 The Pro-Vision App is a cutting-edge solution designed to address the challenges that organizations face in predicting product demand and forecasting sales or revenue. Leveraging the power of MS SQL and Python, this full-stack data science application is invaluable for inventory management, supply chain optimization, and workforce planning.
 
 The Pro-Vision App aims to solve these issues by deploying 16 machine learning models, namely gradient boosting algorithms. These models use past sales data to make predictions based on different combinations of city, store, sales/revenue prediction, and daily or weekly forecast types.
@@ -10,7 +19,7 @@ Key Features and Benefits
  - Revenue Prediction
  - User Friendly Interface
 
-	2 - Installation Instructions:
+### <a name="installation-instructions"></a>Installation Instructions
 
 Follow these step-by-step instructions to install and run the Pro-Vision App on your local machine:
 
@@ -40,7 +49,7 @@ You will see the HTTP address displayed in the command prompt. Press Ctrl and cl
 
 The app will now run locally, and you can access all its features through your web browser.
 
-	3 - Usage Instructions:
+### <a name="usage-instructions"></a>Usage Instructions
 
 Follow these detailed instructions to make the most of the Pro-Vision App's features:
 
@@ -83,9 +92,9 @@ Interpret the prediction result based on your business needs, utilizing the insi
 
 You can navigate back to the homepage or other sections to make additional predictions as needed.
 
-	Note: You can follow the flow of application using the command prompt. As you click "Predict" button, various information will be printed on the command prompt about the flow. 
+Note: You can follow the flow of application using the command prompt. As you click "Predict" button, various information will be printed on the command prompt about the flow. 
 
-	4 - File Structure:
+### <a name="file-structure"></a>File Structure
 
 The Pro-Vision App directory is organized into several key folders and files, each serving a specific purpose in the application. Here's an overview of the structure:
 
@@ -109,7 +118,7 @@ app: The main directory containing the application code and related assets.
 
    utils.py: Contains code for various functions such as connecting to the database, loading machine learning models, and preprocessing user input.
 
-	5 - Error Handling:
+### <a name="error-handling"></a>Error Handling
 
  a. Date Range Validation:
 
@@ -123,6 +132,6 @@ When making a prediction, the application queries the database for historical da
 
 If the user selects a weekly forecast and the chosen date is not a Monday, the application will automatically adjust the date to the corresponding Monday of the same week. If the chosen date is already a Monday, the application will use it as is.
 
-	6 - Dependencies:
+### <a name="dependencies"></a>Dependencies
 
 The list of libraries and dependencies can be found in the requirements.txt file.
